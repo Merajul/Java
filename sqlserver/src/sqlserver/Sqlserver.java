@@ -20,7 +20,7 @@ public class Sqlserver {
 public static void main(String[] args) {
 
         // Create a variable for the connection string.
-        String connectionUrl = "jdbc:sqlserver://27.147.156.155:1433;databaseName=sms;user=nessbit;password=TimeSpace5060#";
+        String connectionUrl = "jdbc:sqlserver://27.147.156.100:1433;databaseName=sms;user=ness;password=dfsdfs435@#";
 
         try (Connection con = DriverManager.getConnection(connectionUrl); Statement stmt = con.createStatement();) {
             
